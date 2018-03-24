@@ -26,7 +26,11 @@ This example API documentation page was created with [Slate](https://github.com/
 
 # Admin
 
-## Reference
+## Get all Reference
+
+### HTTP Request : GET
+
+`GET https://us-central1-currencyclub-demo.cloudfunctions.net/api/reference`
 
 ```shell
 curl "https://us-central1-currencyclub-demo.cloudfunctions.net/"
@@ -57,10 +61,6 @@ code | reference code
 title | description
 amount | click view
 createdAt | creation time
-
-### HTTP Request
-
-`GET https://us-central1-currencyclub-demo.cloudfunctions.net/api/reference`
 
 ### Query Parameters
 
