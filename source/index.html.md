@@ -24,7 +24,7 @@ Welcome to the USYNO API!
 
 This example API documentation page was created with [Slate](https://github.com/lord/slate). Feel free to edit it and use it as a base for your own API's documentation.
 
-# Admin
+# Reference
 
 ## Get all Reference
 
@@ -70,6 +70,49 @@ null|null|null
 
 <aside class="success">
 This API is for getting all reference
+</aside>
+
+## Add Reference
+
+### HTTP Request : POST
+
+`POST https://us-central1-currencyclub-demo.cloudfunctions.net/api/reference`
+
+```shell
+curl "https://us-central1-currencyclub-demo.cloudfunctions.net/"
+```
+
+```javascript
+
+```
+
+> The above command returns JSON structured like this:
+
+```json
+[
+  {
+    "status": "success"
+  }
+]
+or
+[
+  {
+    "status": "error",
+    "error": "error message"
+  }
+]
+```
+
+### Query Parameters
+
+Parameter | Default | Description
+--------- | ------- | -----------
+code|null|reference code
+title|null|detail/description
+amount|0|how many people have been viewed
+createdAt|now time|date like 04-04-2018
+<aside class="success">
+This API is for adding a reference
 </aside>
 
 # User
